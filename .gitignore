@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Coggly data files (the real store lives in the home directory)
+.coggly.json
+*.coggly.json.bak
+data/
+
+# Local environment
+.env
+.venv/
+venv/

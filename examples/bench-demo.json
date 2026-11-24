@@ -1,0 +1,116 @@
+{
+  "schema_version": 2,
+  "users": [
+    {
+      "id": "u0001",
+      "email": "cenius@cenius.ai",
+      "username": "cenius",
+      "display_name": "Cenius (demo account)",
+      "password_salt": "fc0470dcffb73d0be02633e627791889",
+      "password_hash": "d91f9531e94de9d7c68d4b769d952044e0023313c46f01acaed52db2357e47b2",
+      "role": "owner",
+      "created_at": "2026-11-24T22:55:29"
+    }
+  ],
+  "sessions": [],
+  "beat_entries": [
+    {
+      "id": "0001",
+      "owner": "u0001",
+      "movement": "P-42",
+      "recorded_on": "2026-08-20",
+      "error_spd": 9.8,
+      "note": "in from the bench, untouched since 2019"
+    },
+    {
+      "id": "0002",
+      "owner": "u0001",
+      "movement": "P-42",
+      "recorded_on": "2026-09-23",
+      "error_spd": 5.2,
+      "note": "after mainspring replacement"
+    },
+    {
+      "id": "0003",
+      "owner": "u0001",
+      "movement": "P-42",
+      "recorded_on": "2026-10-24",
+      "error_spd": 2.0
+    },
+    {
+      "id": "0004",
+      "owner": "u0001",
+      "movement": "P-42",
+      "recorded_on": "2026-11-15",
+      "error_spd": 0.6,
+      "note": "two turns on the regulating nut"
+    },
+    {
+      "id": "0005",
+      "owner": "u0001",
+      "movement": "K-17",
+      "recorded_on": "2026-10-10",
+      "error_spd": -14.2,
+      "note": "long case, cold workshop"
+    },
+    {
+      "id": "0006",
+      "owner": "u0001",
+      "movement": "K-17",
+      "recorded_on": "2026-11-12",
+      "error_spd": -6.7
+    },
+    {
+      "id": "0007",
+      "owner": "u0001",
+      "movement": "W-08",
+      "recorded_on": "2026-11-19",
+      "error_spd": 3.3,
+      "note": "carriage clock, just cleaned"
+    }
+  ],
+  "service_records": [
+    {
+      "id": "0001",
+      "owner": "u0001",
+      "movement": "P-42",
+      "service_on": "2025-02-22",
+      "work": "full service, clean and oil",
+      "watchmaker": "A. Bell",
+      "cost": 145.0
+    },
+    {
+      "id": "0002",
+      "owner": "u0001",
+      "movement": "P-42",
+      "service_on": "2026-09-25",
+      "work": "mainspring replaced",
+      "watchmaker": "A. Bell",
+      "cost": 68.5,
+      "note": "old spring 12% down on torque"
+    },
+    {
+      "id": "0003",
+      "owner": "u0001",
+      "movement": "K-17",
+      "service_on": "2026-04-28",
+      "work": "oil and regulate",
+      "watchmaker": "M. Okafor",
+      "cost": 55.0
+    },
+    {
+      "id": "0004",
+      "owner": "u0001",
+      "movement": "W-08",
+      "service_on": "2026-11-06",
+      "work": "clean, oil, new suspension spring",
+      "watchmaker": "M. Okafor",
+      "cost": 82.0
+    }
+  ],
+  "next_ids": {
+    "beat": 8,
+    "service": 5,
+    "user": 2
+  }
+}

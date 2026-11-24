@@ -1,0 +1,6 @@
+# Coggly is deliberately dependency-free: it is a single Python file built on the
+# standard library only (argparse, json, os, sys, tempfile, datetime, pathlib).
+# There is nothing to install here, so this file is intentionally empty.
+#
+# Install the optional 'coggly' console script with:
+#     python3 -m pip install -e .
